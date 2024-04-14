@@ -1,0 +1,21 @@
+.container {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 50%;
+    margin: 0 auto; /* Horizontally center the container */
+  }
+  
+.container h2,
+.container button {
+margin: 0; /* Remove default margins */
+}
+
+.container button {
+margin-left: 30px;
+}
+
+.container:hover {
+    background-color: lightblue;
+    font-size: 20px;
+}
