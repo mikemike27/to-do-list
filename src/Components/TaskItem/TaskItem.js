@@ -7,7 +7,7 @@ function TaskItem(props){
         let index = props.index
         props.onRemoveTask(index)
 
-        console.log(index);
+        //console.log(index);
 
     }
 
